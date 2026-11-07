@@ -73,3 +73,7 @@ For the included sample, PR Guardian recommends **HOLD**: the diff adds an admin
 - [ ] README with the setup and architecture above
 - [ ] Screenshot showing the Switch/Mattermost room and named agents
 - [ ] One clear before/after story: unstructured review to human-approved release decision
+      
+## Demo
+
+[Watch the PR Guardian demo on YouTube](https://youtu.be/zQur8TIrPsg)
