@@ -1,0 +1,14 @@
+diff --git a/api/routes.py b/api/routes.py
+index d645e7b..c54d1ae 100644
+--- a/api/routes.py
++++ b/api/routes.py
+@@ -18,6 +18,13 @@ def health():
+     return {"status": "ok"}
+ 
++@app.post("/admin/reindex")
++def reindex_documents(request: Request):
++    """Rebuild the customer-search index after a schema migration."""
++    return reindex_all_documents()
++
+ def search(query: str):
+     return search_index(query)
